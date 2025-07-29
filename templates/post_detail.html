@@ -1,0 +1,16 @@
+<!-- templates/post_detail.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ post.title }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-white to-blue-50 min-h-screen py-10">
+  <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+    <h1 class="text-4xl font-bold text-blue-800 mb-4">{{ post.title }}</h1>
+    <p class="text-gray-700 text-lg">{{ post.content }}</p>
+    <a href="/" class="text-blue-600 hover:underline mt-6 inline-block">⬅ Orqaga</a>
+  </div>
+</body>
+</html>

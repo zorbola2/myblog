@@ -1,0 +1,20 @@
+<!-- templates/create.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Yangi Post</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-green-50 to-green-100 min-h-screen flex items-center justify-center">
+  <div class="bg-white p-10 rounded-lg shadow-md w-full max-w-xl">
+    <h2 class="text-3xl font-bold mb-6 text-green-700">✍️ Yangi Post</h2>
+    <form method="POST" class="space-y-4">
+      <input name="title" placeholder="Sarlavha" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-400" required>
+      <textarea name="content" placeholder="Mazmuni" class="w-full px-4 py-2 border rounded-md h-40 focus:outline-none focus:ring-2 focus:ring-green-400" required></textarea>
+      <button type="submit" class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 transition">Yaratish</button>
+    </form>
+    <a href="/" class="text-blue-500 hover:underline inline-block mt-4">⬅ Orqaga</a>
+  </div>
+</body>
+</html>
