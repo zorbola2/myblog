@@ -1,0 +1,124 @@
+/* Umumiy orqa fon va font sozlamalari */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #e6f0ff, #dbeaff);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #004080;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.nav-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title::before {
+    content: "🟦";
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+/* Asosiy container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Yangi post tugmasi */
+button, .btn {
+    background-color: #2858dd;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #1f47b2;
+}
+
+/* Harakat tugmalari (Ko‘rish, Tahrirlash, O‘chirish, Yangi Post) */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Har bir tugma uchun umumiy stil */
+.action-buttons a {
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Tugmalar ranglari */
+.view-btn {
+    background-color: #28a745; /* Yashil */
+}
+
+.view-btn:hover {
+    background-color: #218838;
+}
+
+.edit-btn {
+    background-color: #ffc107; /* Sariq */
+    color: #212529;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+    color: #212529;
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Qizil */
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.create-btn {
+    background-color: #007bff; /* Moviy */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.create-btn:hover {
+    background-color: #0056b3;
+}
